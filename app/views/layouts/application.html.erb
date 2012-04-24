@@ -7,6 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<p id="core_notice"><%= notice %></p>
+<p id="core_alert"><%= alert %></p>
+<% if user_signed_in? %>
+  <a id="core_user_signed_in"></a>
+  <%= link_to "Logout", destroy_user_session_path, :method=>:delete, :id=>:core_logoutlink %>
+<% else %>
+  <a id="core_not_user_signed_in"></a>
+  <%= link_to "Login", new_user_session_path, :id=>:core_loginlink %><br />
+<% end %>
 
 <%= yield %>
 

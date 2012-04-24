@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module NavigationHelpers
   # Put helper methods related to the paths in your application here.
 

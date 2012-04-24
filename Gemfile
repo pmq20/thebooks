@@ -43,4 +43,12 @@ gem 'steak', :group => [:test, :development]
 gem 'pry', :group => [:test, :development]
 gem 'guard', :group => [:test, :development]
 gem 'guard-rspec', :group => [:test, :development]
+gem "factory_girl_rails", :group => [:test, :development]
+gem 'rr', :group => [:test, :development]
 
+gem 'devise'
+gem 'rest-client'
+# 三方平台 OAuth 验证登陆
+gem "omniauth"
+gem "omniauth-douban", :git => "git://github.com/ballantyne/omniauth-douban.git"
+gem "redis-objects"

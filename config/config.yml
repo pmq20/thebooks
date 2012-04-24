@@ -1,0 +1,14 @@
+defaults: &defaults
+  omniauths:
+    - douban
+    - renren
+    - google
+    - amazon
+    - taobao
+    - weibo
+  douban_token: '005e4481b63d298a011acd8522b77c9e'
+  douban_secret: '5d39692c5d8a6b57'
+  renren_token: '3fb8f24e83c34ebc9beed75ca2b06ef6'
+  renren_secret: '982706a492a540fa8f45b7f7d56af82a'
+  google_token: '604807451178.apps.googleusercontent.com'
+  google_secret: 'mIpedI06iXeG_JSOXKs1e0tE'
