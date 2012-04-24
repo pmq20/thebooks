@@ -39,5 +39,8 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem 'steak'
-gem 'pry'
+gem 'steak', :group => [:test, :development]
+gem 'pry', :group => [:test, :development]
+gem 'guard', :group => [:test, :development]
+gem 'guard-rspec', :group => [:test, :development]
+

@@ -11,4 +11,6 @@ cp /opt/nginx/conf/nginx.conf config/nginx.conf
 cp /etc/httpd/conf/httpd.conf config/httpd.conf
 cp /etc/php.ini config/php.ini
 cp ~/.vimrc config/vimrc
+rm -rf config/vim
+cp -r ~/.vim config/vim
 crontab -l > config/crontab
