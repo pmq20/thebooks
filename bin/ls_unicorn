@@ -1,0 +1,3 @@
+#!/bin/bash -x
+
+ps aux|grep '[u]nicorn_book'

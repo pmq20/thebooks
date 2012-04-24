@@ -1,0 +1,3 @@
+#!/bin/bash -x
+
+kill -QUIT `cat tmp/pids/unicorn.pid`

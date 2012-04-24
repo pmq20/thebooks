@@ -1,0 +1,5 @@
+#!/usr/bin/env bash -x
+
+git add .
+git commit -a -m "$1"
+git push -u origin master

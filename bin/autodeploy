@@ -1,0 +1,10 @@
+/usr/bin/git stash
+
+/usr/bin/git fetch origin
+/usr/bin/git merge --ff-only origin/master
+
+/usr/local/bin/bundle
+RAILS_ENV=production /usr/local/bin/bundle exec rake assets:precompile
+bin/restart_unicorn
+
+/bin/touch tmp/kj_deployed

@@ -1,0 +1,14 @@
+#!/bin/bash -x
+
+# this utility is to dump system-wide configs of the production server
+# for example, Nginx and Apache configs
+# to the code repository
+# in order for version control
+
+# Caution: not to copy sensitive info inside those conf file
+
+cp /opt/nginx/conf/nginx.conf config/nginx.conf
+cp /etc/httpd/conf/httpd.conf config/httpd.conf
+cp /etc/php.ini config/php.ini
+cp ~/.vimrc config/vimrc
+crontab -l > config/crontab
