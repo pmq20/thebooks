@@ -1,0 +1,4 @@
+#!/bin/bash -x
+
+curl http://202.204.208.53/F.html | head
+
