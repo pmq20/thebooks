@@ -1,0 +1,9 @@
+#!/usr/bin/python
+import httplib,urllib;
+conn=httplib.HTTPConnection("202.204.208.53")
+headers = {"Host":"202.204.208.53","Content-Type":"application/x-www-form-urlencoded","Content-Length":"61"}
+conn.request("POST","/",'''DDDDD=055684&upass=055684&0MKKey=%B5%C7%C2%BC+Login''',headers)
+response = conn.getresponse()
+print response.status, response.reason
+conn.close()
+
