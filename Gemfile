@@ -1,6 +1,6 @@
 source 'http://ruby.taobao.org/'
 
-gem 'rails', '3.2.3'
+gem 'rails', '4.0.0'
 gem "mongoid", "~> 2.4"
 gem "bson_ext", "~> 1.5"
 
